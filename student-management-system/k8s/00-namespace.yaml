@@ -1,0 +1,5 @@
+# A separate "room" in the cluster for all Student Management System resources
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: student-management
